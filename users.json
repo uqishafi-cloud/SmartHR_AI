@@ -1,0 +1,17 @@
+{
+  "uqi": {
+    "name": "Uqi (HR Manager)",
+    "password": "admin",
+    "role": "HR"
+  },
+  "herman": {
+    "name": "Herman si Bocah Magang",
+    "password": "hermannakal",
+    "role": "Intern"
+  },
+  "andre": {
+    "name": "Andre (Manager)",
+    "password": "123",
+    "role": "Manager"
+  }
+}
