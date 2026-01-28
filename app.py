@@ -47,8 +47,10 @@ if not st.session_state["authenticated"]:
     
     with st.expander("ℹ️ Info Akun Demo"):
         st.markdown("""
-        - **HR:** `uqi` / `admin`
-        - **Intern:** `herman` / `123`
+        | Username | Password | Role | Akses Data |
+        | :--- | :--- | :--- | :--- |
+        | `uqi` | `admin` | **HR** | Full Access |
+        | `herman` | `hermannakal` | **Intern** | Restricted |
         """)
 
 #---------HALAMAN UTAMA ---------
