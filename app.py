@@ -99,7 +99,7 @@ else:
         with st.chat_message("assistant"):
             with st.spinner("Sedang memproses..."):
                 try:
-                    lf_handler = CallbackHandler(user=user_name)
+                    lf_handler = CallbackHandler(user_name)
                     
                     result = agent.invoke(
                         input_payload,
