@@ -8,3 +8,4 @@ qdrant-client
 langgraph
 python-dotenv
 pydantic==2.9.2
+langfuse>=2.0.0
